@@ -1,4 +1,4 @@
-run-condition-plugin
+Run Condition Plugin
 ====================
 
-see wiki at https://wiki.jenkins-ci.org/display/JENKINS/Run+Condition+Plugin
+see wiki at http://wiki.hudson-ci.org/display/HUDSON/Run+Condition+Plugin

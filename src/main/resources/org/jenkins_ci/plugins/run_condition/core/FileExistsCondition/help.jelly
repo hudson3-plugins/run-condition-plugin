@@ -27,7 +27,7 @@
     <div>Run if the file exists.
     <p>The file is expanded using the Token Macro Plugin.<br/>
        If the file is relative, then it is relative to the Base directory.<br />
-       If the file is absolute, then it will be tested on the Node that contains the Base directory (the master for $JENKINS_HOME and
+       If the file is absolute, then it will be tested on the Node that contains the Base directory (the master for $HUDSON_HOME and
         Artifacts dir).
     </p></div>
 </j:jelly>

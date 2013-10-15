@@ -25,7 +25,7 @@
 
 <j:jelly xmlns:j="jelly:core">
     <div>Run if the two strings are the same.
-    <p>Both of the strings will be expanded with the <a href="https://wiki.jenkins-ci.org/display/JENKINS/Token+Macro+Plugin" target="_blank">Token Macro Plugin</a>.<br />
+    <p>Both of the strings will be expanded with the <a href="http://wiki.hudson-ci.org/display/HUDSON/Token+Macro+Plugin" target="_blank">Token Macro Plugin</a>.<br />
        The match can me made case insensitive by checking the box.
     </p>
     </div>

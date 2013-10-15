@@ -26,7 +26,7 @@
 <j:jelly xmlns:j="jelly:core">
     <div>Only run during a certain period of the day.
         <p>The time is entered in 24 hour format, e.g. 5:03, 09:00, 22:45.<br />
-           The time zone is the time zone set on the Jenkins master.<br />
+           The time zone is the time zone set on the Hudson master.<br />
            The time resolution is 1 minute, and the start minute and end minute are included in the range. i.e. 00:00 to 23:59 would match the whole day
         </p>
     </div>

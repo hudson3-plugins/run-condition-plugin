@@ -28,14 +28,13 @@ import hudson.Extension;
 import hudson.model.BuildListener;
 import hudson.model.AbstractBuild;
 import hudson.model.ComputerSet;
+import hudson.model.Hudson;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
-import jenkins.model.Jenkins;
 
 import org.jenkins_ci.plugins.run_condition.Messages;
 import org.jenkins_ci.plugins.run_condition.common.AlwaysPrebuildRunCondition;
@@ -106,7 +105,7 @@ public final class NodeCondition extends AlwaysPrebuildRunCondition {
          */
         @SuppressWarnings("deprecation")
         private static List<String> getSlaveNames() {
-            ComputerSet computers = Jenkins.getInstance().getComputer();
+            ComputerSet computers = Hudson.getInstance().getComputer();
             List<String> slaveNames = computers.get_slaveNames();
 
             // slaveNames is unmodifiable, therefore create a new list
